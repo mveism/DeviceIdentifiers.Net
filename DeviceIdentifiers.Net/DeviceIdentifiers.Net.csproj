@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Authors>mveism</Authors>
+		<Description>Provides lookup from Android device model to market name using Google's supported_devices.csv</Description>
+		<PackageId>DeviceIdentifiers.Net</PackageId>
+		<RepositoryUrl>https://github.com/mveism/DeviceIdentifiers.Net</RepositoryUrl>
+		<IncludeContentInPack>true</IncludeContentInPack>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<LangVersion>8.0</LangVersion>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageTags>marketname;device marketname;android device marketname;android;android devices;device identifiers;google supported devices;android marketing name;device lookup;dotnet;csharp;xamarin;xamarin android;dotnet for android;mobile;device info;google play;device database;lookup library;nuget package;model name;marketing name;device name resolver;lightweight;fast lookup;google device list;android compatibility</PackageTags>
+		<Title>DeviceIdentifiers.Net — Android Device Model to Market Name</Title>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>
